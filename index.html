@@ -2,41 +2,9 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>ruoo</title>
-
+    <title>ruoo-Card</title>
+    <link rel="stylesheet" href="./style.css">
     <style>
-      .wrapper {
-        position: fixed;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        overflow: hidden auto;
-        background: linear-gradient(to bottom, #4169e1, #00ffff);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url(./bg.jpg);
-        display: flex;
-        justify-content: center;
-      }
-      .card {
-        width: 100%;
-        max-width: 46rem;
-        height: auto;
-        min-height: 28rem;
-        padding: 1rem;
-        margin: auto;
-        border-radius: 1rem;
-        box-sizing: border-box;
-        cursor: pointer;
-        overflow: hidden;
-        user-select: none;
-        position: relative;
-        backdrop-filter: blur(10px);
-        background-color: #ffffff30;
-        box-shadow: 1px 1px 1rem #00000080;
-      }
       .dot {
         position: absolute;
         transform: translate(-50%, -50%);
@@ -56,15 +24,24 @@
           opacity: 0;
         }
       }
+      .title {
+        text-align: center;
+        color: black;
+        font-size: 2rem;
+        font-weight: bold;
+        line-height: 5rem;
+        font-family: "SimSun";
+      }
     </style>
   </head>
 
   <body>
+    <img class="bg" src="./bg.jpg" alt="" />
     <div class="wrapper">
       <div class="card">
         <p style="text-align: center">ruoo.top</p>
         <hr />
-        <h1 style="text-align: center; line-height: 10rem;">海内存知己, 天涯若比邻</h1>
+        <p class="title">海内存知己, 天涯若比邻</p>
       </div>
       </div>
     </div>
