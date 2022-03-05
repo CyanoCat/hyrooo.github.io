@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>ruoo-Card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      .mfaoa {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transition: all 1s;
+        padding-bottom: 6rem;
+      }
+      .mfaoa::after {
+        transition: all 1s;
+        position: absolute;
+        content: "";
+        transform: rotate(-45deg) translate(0, -50%);
+        width: 200%;
+        width: 200%;
+        height: 1rem;
+        left: 0;
+        bottom: 3rem;
+        border: 1.5rem solid red;
+      }
+      .w1 {
+        color: darkblue;
+        font-size: 2rem;
+        line-height: 4rem;
+        font-weight: bold;
+        font-family: monospace;
+      }
+      .w2 {
+        color: black;
+        font-size: 4rem;
+        font-weight: bold;
+        line-height: 5rem;
+        border-bottom: 1rem double darkblue;
+        font-family: "SimSun";
+      }
+      .w3 {
+        color: black;
+        font-size: 2rem;
+        font-family: monospace;
+        text-align: center;
+        max-width: 70%;
+      }
+      .w4 {
+        position: absolute;
+        bottom: 2rem;
+        left: 2.5rem;
+        font-family: monospace;
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <img class="bg" src="./bg.jpg" alt="" />
+    <div class="wrapper">
+      <div class="card mfaoa">
+        <span class="w1">北海神殿</span>
+        <span class="w2">外務省</span>
+        <span class="w3">Ministry of Foreign Affairs Official Account</span>
+        <span class="w4"
+          ><a
+            href="https://iirose.com/#s=5f428a5e24938&r=5f082e1bd3775&act=i:5f428a5e24938"
+            >5f428a5e24938</a
+          ></span
+        >
+      </div>
+    </div>
+  </body>
+</html>
